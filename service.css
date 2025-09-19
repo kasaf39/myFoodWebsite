@@ -34,9 +34,9 @@ body{
 }
 .content-box{
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     flex-wrap: wrap;
-    width: 1000px;
+    /* //width: 1000px; */
     margin-top:30px;
 }
 .card{
