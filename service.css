@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -164,3 +165,171 @@ p:hover{
     cursor:pointer;
 }
 
+=======
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: rgba(255,28,8,0.8);
+}
+
+
+.wrapper{
+    font-family: "raleway";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fafafa;
+
+}
+.wrapper h1{
+    font-size:3em;
+    margin:25px 0;
+    text-align:center;
+    font-weight: 500;
+    color: rgba(255,0,82,0.8);
+
+}
+.wrapper p{
+    width:80%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.content-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin-top:30px;
+}
+.card{
+    min-height:220px;
+    width:320px;
+    padding:30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    margin: 10px 4px;
+    box-shadow: 0px 15px 30px rgba(0,0,0,0.2);
+
+
+}
+.card i{
+    margin: 20px;
+    color: #ff5724;
+}
+.card h2{
+    margin-bottom: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+.card p{
+    color:#6c757d;
+    text-align: center;
+}
+.card:nth-child(1):hover{
+    background: linear-gradient(45deg ,
+    rgba(255,28,8,0.8)0%,
+    rgba(255,0,82,0.8)100%),
+    url("image/main.jpg");
+    background-size: cover;
+}
+.card:nth-child(2):hover{
+    background: linear-gradient(45deg ,
+    rgba(255,28,8,0.8)0%,
+    rgba(255,0,82,0.8)100%),
+    url("image/pancakes-2291908_1280.jpg");
+    background-size: cover;
+}
+.card:nth-child(3):hover{
+    background: linear-gradient(45deg ,
+    rgba(255,28,8,0.8)0%,
+    rgba(255,0,82,0.8)100%),
+    url("image/paratha.jpg");
+    background-size: cover;
+}
+.card:nth-child(4):hover{
+    background: linear-gradient(45deg ,
+    rgba(255,28,8,0.8)0%,
+    rgba(255,0,82,0.8)100%),
+    url("image/spaghetti-2931846_1280.jpg");
+    background-size: cover;
+}
+.card:nth-child(5):hover{
+    background: linear-gradient(45deg ,
+    rgba(255,28,8,0.8)0%,
+    rgba(255,0,82,0.8)100%),
+    url("image/service.jpg");
+    background-size: cover;
+}
+.card:nth-child(6):hover{
+    background: linear-gradient(45deg ,
+    rgba(255,28,8,0.8)0%,
+    rgba(255,0,82,0.8)100%),
+    url("image/logo.png");
+    background-size: cover;
+}
+.footer {
+  background:rgba(255,28,8,0.8);
+  color:black;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.footer-col {
+  flex: 1 1 200px;
+}
+
+.footer-col h4 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color:black;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 8px;
+}
+
+.footer-col ul li a {
+  color:white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-col ul li a:hover {
+  color: black;
+}
+
+.footer p {
+  font-size: 16px;
+  margin-top: 20px;
+  color:white;
+}
+p:hover{
+    color: black;
+    cursor:pointer;
+}
+
+>>>>>>> 1d87bde96cdefc287643112140e924d4641f8731
